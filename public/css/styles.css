@@ -20,7 +20,23 @@ section {
 }
 
 #main {
-    background-color: blue;
+    flex: 1;
+    display: flex;
+    color: white;
+    font-size: 1.5em;
+}
+
+.invite {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.invite img {
+    max-width: 100%; /* Ensure the image doesn't exceed its container */
+      height: auto; /* Maintain aspect ratio */
+      max-height: 80vh;
 }
 
 #intro {
