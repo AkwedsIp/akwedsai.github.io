@@ -1,0 +1,114 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+}
+
+section {
+    height: 100%;
+    width: 100%;
+    display: flex;
+}
+
+.content {
+    flex: 1;
+    display: flex;
+    color: white;
+    font-size: 1.5em;
+}
+
+#main {
+    background-color: blue;
+}
+
+#intro {
+    background-color: green;
+}
+
+#date-venue {
+    background-color: red;
+}
+
+.left {
+    background-color: violet;
+    flex: 1;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.right {
+    background-color: orange;
+    flex: 1;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.left img, .right img {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+}
+
+.invitation-section {
+  text-align: center;
+  padding: 50px 0;
+}
+
+.invitation, .rsvp-form {
+  background-color: white;
+  border: 2px solid #ddd;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.invitation h1 {
+  color: #333;
+}
+
+.invitation p {
+  color: #555;
+}
+
+.rsvp-button, .rsvp-form button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.rsvp-form {
+  display: none; /* Ensure the form is hidden initially */
+}
+
+.rsvp-form label {
+  display: block;
+  margin-top: 10px;
+  text-align: left;
+}
+
+.rsvp-form input {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+/* Other screen size styling */
+@media (max-width: 768px) {
+
+}
